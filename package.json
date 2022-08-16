@@ -1,0 +1,21 @@
+{
+  "name": "@libs/foo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "exports": {
+    "./package.json": "./package.json",
+    "./*": "./src/*.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "^0.21.1",
+    "vite": "^3.0.7",
+    "typescript": "^4.7.4"
+  }
+}
