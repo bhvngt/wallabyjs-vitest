@@ -1,3 +1,4 @@
+import SchemaValidatorGenerator from "./initAjv";
 export function setup(){
-    console.log("Setting up test")
+    SchemaValidatorGenerator({type:"number"})
 }

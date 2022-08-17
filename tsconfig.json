@@ -4,5 +4,6 @@
     "module": "NodeNext",
     "target": "ESNext",
     "strict": true,
+    "resolveJsonModule": true
   }
 }
